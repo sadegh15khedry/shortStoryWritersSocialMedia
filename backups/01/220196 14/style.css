@@ -1,0 +1,148 @@
+*{
+    direction: rtl;
+}
+
+body,html,.col-sm-10,.col-sm-2,.container-fluid,#third-row,#sec,#slider_rapper,#rapper2{
+    min-height: 100% !important;
+    height: 100%!important;
+    padding: 0!important;
+    overflow-y: auto!important;
+    overflow-x: hidden!important;
+}
+
+
+.navbr{
+    background-color: black;
+}
+#hor-nav{
+    color: white;
+    font-weight: bold;
+}
+
+#footer{
+    background-color: black;
+    color: gray;
+    padding:10px;
+    text-align: center;
+    clear: both;
+
+}
+
+#sec{
+    background-color: white;
+    height:100%;
+}
+
+#ver-nav{
+    overflow: hidden;
+    font-weight: bold;
+}
+
+.navbar-brand{
+
+    float: right;
+}
+
+.nav-tabs {
+    border-bottom-width: 0;
+}
+
+#ver-nav>div>ul>li>a{
+    color: black;
+}
+
+#ver-nav>div>ul>li>a:hover{
+    color: lightgray;
+    background-color: white;
+    border:0;
+}
+
+#sec_rapper{
+    min-width:93.4%;
+    height:100%;
+    margin-left: 3.2%;
+    margin-right: 3.3%;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+
+/*----------------------------------------- large --------------------------------*/
+
+
+
+@media (min-width: 768px){
+    #selector{
+        width: 42%;
+    }
+
+    #search-text{
+        width:42%;
+    }
+
+    #search-btn{
+        margin-right: .5%;
+        width: 9%;
+    }
+
+    #serching_div{
+        font-size: 15px;
+        width: 95%;
+        margin: auto;
+    }
+    .form-group{
+        width:100%;
+    }
+
+    .navbar-header{
+        margin-right: 1.5%;
+    }
+
+    .navbar-inverse{
+        font-size:1.3em;
+    }
+
+    #second-row{
+        margin-top:70px;
+    }
+    .nav{
+        padding:0;
+    }
+
+    #ver-nav>ul>li{
+        padding-top: 40px;
+    }
+    #third-row{
+        margin-top: 20px;
+    }
+    #footer{
+        margin-top:20px;
+    }
+    #slider_rapper{
+        margin: 0 15% 0 0;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+    }
+    .sec-content{
+        height:150px;
+        width:22%;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        margin: 20px 2.2% 0 0;
+        display: inline-block;
+    }
+}
+
+
+/*----------------------------------------- smal --------------------------------*/
+
+
+
+@media (max-width: 768px){
+    #selector{
+        padding:40px;
+    }
+    #search-btn,#search-text{
+        margin-top:10px;
+    }
+}

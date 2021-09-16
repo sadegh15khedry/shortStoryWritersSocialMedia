@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>ثبت آگهی</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="style/font-awesome-4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style/secondPage.css">
+    <script type="text/javascript" src="js/addingCommodity.js"></script>
+</head>
+<body>
+<div class="container-fluid">
+
+
+    <!------------------------------------ first row ------------------------------------->
+
+
+    <nav class="navbar-inverse navbar-fixed-top" id="hor-nav">
+        <div class="navbar-header navbar-right">
+            <a class="navbar-brand" href="home.html">تــعــمــیـــــــرگــاه</a>
+        </div>
+        <ul class="nav navbar-nav navbar-right">
+            <li><a href="#">کالاهای من</a></li>
+            <li><a href="#">تماس با ما</a></li>
+            <li><a class="active" href="#">ثبت آگهی</a></li>
+            <li><a href="#">درباره ی ما</a></li>
+        </ul>
+        <!------------------ sercing text --------------->
+        <div id="searching_div" role="form">
+            <input id="text_search" type="text">
+            <button id="searching_btn" type="button">جستوجو</button>
+        </div>
+    </nav>
+
+
+    <!------------------------------------ sec ------------------------------------->
+
+        <div  id="second_page_rapper">
+            <form>
+                <label class="form_label" >دسته</label>
+                <select id="first_select" class="form_select" onchange="firstChose('this.selectedIndex');">
+                    <option value="labtop">دسته را انتخاب کنید</option>
+                    <option value="labtop">لبتاب</option>
+                    <option value="mobile">موبایل</option>
+                    <option value="other">لوازم جانبی</option>
+                </select>
+                <select class="form_select" id="second_select" onchange="secondChose()">
+                    <option value="labtop">لبتاب</option>
+                    <option value="labtop">لبتاب</option>
+                    <option value="labtop">لبتاب</option>
+                    <option value="labtop">لبتاب</option>
+                </select>
+                <select class="form_select" id="third_select" onchange="thirdChose()">
+                    <option value="labtop">لوازم جانبی</option>
+                    <option value="hello">لوازم جانبی</option>
+                    <option value="akbar">لوازم جانبی</option>
+                    <option value="asghar">لوازم جانبی</option>
+                </select>
+                <div id="price_div">
+                    <label class="form_label price" >قیمت</label>
+                    <select id="price_kind" class="form_select">
+                        <option value="labtop">دسته را انتخاب کنید</option>
+                        <option value="labtop">مقطوع</option>
+                        <option value="mobile">توافقی</option>
+                        <option value="other">مجانی</option>
+                    </select>
+                    <input id="price_number" class="form_select" type="text" placeholder="قیمت">
+                </div>
+                <div id="img_div">
+                    <label class="form_label">عکس</label>
+                    <button href="#" id="adding_pic">افزودن عکس</button>
+                </div>
+            </form>
+        </div>
+
+    <!------------------------------------ footer ------------------------------------->
+
+    <div class="nav" id="footer">
+        تمامی خدمات این فروشگاه، حسب مورد دارای مجوزهای لازم از مراجع مربوطه می‌باشد و فعالیت‌های این سایت تابع قوانین و مقررات جمهوری اسلامی ایران است.
+    </div>
+</div>
+
+</body>
+</html>

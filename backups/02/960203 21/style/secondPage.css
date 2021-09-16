@@ -1,0 +1,33 @@
+#second_page_rapper{
+    margin: 100px 5% 100px 5%;
+    font-size:1.3em;
+    display: block;
+}
+#second_select{
+    visibility: hidden;
+
+}
+
+#third_select{
+    visibility: hidden;
+}
+#hidden_div{
+    visibility: hidden;
+}
+
+@media (min-width: 768px) {
+    .form_label {
+        margin: 0;
+        display: block;
+    }
+
+    .form_select {
+        display: block;
+        margin-top:10px;
+        width:20%;
+    }
+    #adding_pic{
+        width: 20%;
+    }
+
+}

@@ -1,0 +1,110 @@
+*{
+    overflow: hidden;
+}
+
+#second_page_rapper{
+    margin: 100px 5% 100px 5%;
+    font-size:1.3em;
+    display: block;
+}
+#second_select{
+    display: none;
+}
+#second_col{
+    position: fixed;
+    top:105px;
+    right: 50%;
+    margin:0;
+    width:45%;
+}
+#third_select{
+    display: none;
+}
+
+#hidden_div{
+    display: none;
+}
+#image_div{
+    display: none;
+}
+#text_area{
+    border: 1px solid #eeee ;
+    border-radius: 4px;
+}
+.input{
+    border: solid #eeee;
+    border-radius: 4px;
+}
+.radio_item{
+    margin: 0 8px 0 15px;
+    font-size: 1em;
+    font-weight: normal;
+}
+.radio_btn{
+    margin: 0 0 0 0;
+    position: relative;
+    bottom: 5px;
+}
+#adding_pic{
+    border: 1px solid #eeee;
+    border-radius: 6px;
+    height: 40px;
+    color: white;
+    background-color: black;
+
+}
+#type{
+    margin-top: 60px;
+}
+
+@media (min-width: 768px) {
+    #third_select{
+        position: fixed;
+        right:5%;
+        top: 215px;
+        width: 18%;
+    }
+    #text_area{
+        width:90%;
+        height:100px;
+        margin-top: 15px;
+    }
+    .input{
+        width:45%!important;
+
+    }
+    .select2{
+        width: 45% !important;
+
+    }
+    .select_margin{
+        margin-top: 18px !important;
+    }
+    .form_label {
+        margin-top: 20px;
+        display: block;
+        font-size: 1em;
+    }
+    #daste,#city{
+        margin-top: 0;
+    }
+    .form_select {
+        display: block;
+        margin-top:12px;
+        width:20%;border: 1px solid #eeee ;
+        border-radius: 4px;
+        font-size: .8em;
+        padding: 5px;
+    }
+    #adding_pic{
+        width: 11%!important;
+        font-size: .8em;
+        margin-right: 3%!important;
+        margin-top: 15px;
+    }
+    .first_label{
+        margin-top: 45px;
+    }
+
+
+}

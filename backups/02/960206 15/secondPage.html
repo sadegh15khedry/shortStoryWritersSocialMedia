@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>ثبت آگهی</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="style/font-awesome-4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style/secondPage.css">
+    <script src="js/jquery/formAnimation.js"></script>
+</head>
+<body>
+<div class="container-fluid">
+
+
+    <!------------------------------------ first row ------------------------------------->
+
+
+    <nav class="navbar-inverse navbar-fixed-top" id="hor-nav">
+        <div class="navbar-header navbar-right">
+            <a class="navbar-brand" href="home.html">تــعــمــیـــــــرگــاه</a>
+        </div>
+        <ul class="nav navbar-nav navbar-right">
+            <li><a href="#">کالاهای من</a></li>
+            <li><a href="#">تماس با ما</a></li>
+            <li><a class="active" href="#">ثبت آگهی</a></li>
+            <li><a href="#">درباره ی ما</a></li>
+        </ul>
+        <!------------------ sercing text --------------->
+        <div id="searching_div" role="form">
+            <input id="text_search" type="text">
+            <button id="searching_btn" type="button">جستوجو</button>
+        </div>
+    </nav>
+
+
+    <!------------------------------------ sec ------------------------------------->
+
+        <div  id="second_page_rapper">
+            <div id="first_col">
+                <form>
+                    <!------------------ first select ----------------------->
+                    <div id="#sel_div">
+                    <label id="daste" class="form_label first_label" >دسته</label>
+                    <select id="first_select" class="form_select">
+                        <option value="labtop">دسته را انتخاب کنید</option>
+                        <option value="labtop">لبتاب</option>
+                        <option value="mobile">موبایل</option>
+                        <option value="other">لوازم جانبی</option>
+                    </select>
+                    <!------------------ second select ----------------------->
+                    <select class="form_select select_margin" id="second_select">
+                        <option value="labtop">لبتاب</option>
+                        <option value="labtop">لبتاب</option>
+                        <option value="labtop">لبتاب</option>
+                        <option value="labtop">لبتاب</option>
+                    </select>
+                    <!------------------ third select ----------------------->
+                    <select class="form_select select_margin" id="third_select">
+                        <option value="labtop">لوازم جانبی</option>
+                        <option value="hello">لوازم جانبی</option>
+                        <option value="akbar">لوازم جانبی</option>
+                        <option value="asghar">لوازم جانبی</option>
+                    </select>
+                    </div>
+
+                    <div id="hidden_div">
+                        <!------------------ price stuff ----------------------->
+                        <label id="type" class="form_label  first_label">نوع</label>
+                        <input class="radio_btn" type="radio" value="for_sell"> <label class="radio_item">فروشی</label>
+                        <input class="radio_btn" type="radio" value="for_sell"><label class="radio_item">درخواستی</label>
+                        <input  class="radio_btn" type="radio" value="for_sell"><label class="radio_item">کرایه</label>
+                        <label class="form_label price" >قیمت</label>
+                        <select id="price_kind" class="form_select select_margin">
+                            <option value="labtop">دسته را انتخاب کنید</option>
+                            <option value="labtop">مقطوع</option>
+                            <option value="mobile">توافقی</option>
+                            <option value="other">مجانی</option>
+                        </select>
+                        <input id="price_number" class="form_select select_margin" type="text" placeholder="قیمت">
+                        <!------------------ img stuff ----------------------->
+                        <label class="form_label  first_label">عکس</label>
+                        <button href="#" id="adding_pic">افزودن عکس</button>
+<!---------------------------------------------- second col --------------------------------------------------------------------->
+                        <div id="second_col">
+                            <label id="city" class="form_label">شهر</label>
+                            <select class="form_select select2" id="city_select">
+                                <option value="other">بوشهر</option>
+                                <option value="other">بوشهر</option>
+                                <option value="other">بوشهر</option>
+                                <option value="other">بوشهر</option>
+                            </select>
+                            <label class="form_label">محله</label>
+                            <select class="form_select  select2">
+                                <option>سنگی</option>
+                                <option>سنگی</option>
+                                <option>سنگی</option>
+                                <option>سنگی</option>
+                            </select>
+                            <label class="form_label">عنوان</label>
+                            <input type="text" class="form_select input">
+                            <label class="form_label">ایمیل</label>
+                            <input type="text" class="form_select input">
+                            <label class="form_label">شماره تلفن</label>
+                            <input type="text" class="form_select input">
+                            <label class="form_label">توضیحات</label>
+                            <textarea id="text_area"></textarea>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+    <!------------------------------------ footer ------------------------------------->
+
+    <div class="nav" id="footer">
+        تمامی خدمات این فروشگاه، حسب مورد دارای مجوزهای لازم از مراجع مربوطه می‌باشد و فعالیت‌های این سایت تابع قوانین و مقررات جمهوری اسلامی ایران است.
+    </div>
+</div>
+<script src="js/src/jquery-3.2.1.min.js"></script>
+<script src="js/jquery/formAnimation.js"></script>
+</body>
+</html>
