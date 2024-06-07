@@ -19,9 +19,11 @@ Short Story Writers Social Media provides a space for writers to share their sho
 To set up Short Story Writers Social Media locally:
 
 1. Clone this repository to your local machine.
-2. Install the necessary dependencies using a package manager such as npm or yarn.
-3. Set up a local development environment with a database (e.g., MySQL, MongoDB) and configure the application to connect to it.
-4. Run the application server using the provided scripts or commands.
+2. Install xamp.
+3. add project to xamp.
+4. attach nevisande.sql to mysql in phpmyadmin.
+5. adjust the connection string.
+6. Run the application server using the provided scripts or commands.
 
 ## Usage
 
@@ -29,7 +31,7 @@ Once the application is running locally, users can access it through a web brows
 
 ## Technologies Used
 
-- **Frontend**: HTML, CSS, JavaScript, Jquery
+- **Frontend**: HTML, CSS, JavaScript, Jquery, bootstrap
 - **Backend**: php
 - **Database**: mySql
 
